@@ -48,6 +48,9 @@ namespace CW_30_08
                     }
                 };
                 
+                db.AddRange(events);
+                db.SaveChanges();
+
             }
 
 
